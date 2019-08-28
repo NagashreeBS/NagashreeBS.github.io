@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border-radius: 100%;
+}
+
+#myDIV {
+  width: 50%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: Lavender;
+  margin-top: 10px;
+  float: right;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+   
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<div float = "left">
+
+<h2 style="color:red;">PROFILE</h2>
+
+<img src="nag.jpg" alt="Avatar" style="width:200px">
+
+<h3>NAGASHREE BS</h3>
+<h3>4GH16CS031</h3>
+
+<div style="text-align:left; width:50%; padding:0;">
+
+<button onclick="myFunction()">click here for more details</button>
+
+</div>
+</div>
+<div id="myDIV" float = "right" align="right">
+
+<table align="right">
+  <tr>
+    <th> </th>
+    <th>Student Details</th>
+    
+  </tr>
+ 
+ <tr>
+    <td>BRANCH</td>
+    <td>Computer Science</td>
+    
+  </tr>
+ <tr>
+    <td>College</td>
+    <td>Governament Enigeering College Hassan</td>
+  
+  </tr>
+ <tr>
+    <td>EMAIL ID </td>
+    <td>nagashreebs567@gmail.com</td>
+  
+  </tr>
+ <tr>
+    <td>PHONE NO</td>
+    <td>9964679990</td>
+  
+  </tr>
+  <tr>
+    <td>ADDRESS</td>
+    <td>#31/A Bhramalingeshwara Nilaya,Kuvempunagar,Hassan</td>
+    
+  </tr>
+ <tr>
+    <td>DATE OF BIRTH</td>
+    <td>10/3/1998</td>
+  
+  </tr>
+ <tr>
+    <td>SKILLS</td>
+    <td>HTML,JAVA,DATABASE,PYTHON,C</td>
+  
+  </tr>
+
+ 
+  
+</table>
+
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
